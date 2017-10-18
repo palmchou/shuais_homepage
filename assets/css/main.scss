@@ -1,0 +1,17 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@charset "utf-8";
+
+
+
+// Our variables
+//$base: {{ '/assets' | prepend: site.baseurl }};
+
+// Import partials from `sass_dir` (defaults to `_sass`)
+@import
+  "font_family",
+  "icon",
+  "material.blue-indigo.min",
+  "styles"
+;
