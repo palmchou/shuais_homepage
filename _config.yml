@@ -13,9 +13,10 @@ email: shuaizhou.palm@gmail.com
 #  line in _config.yml. It will appear in your document head meta (for
 #  Google search results) and in your feed.xml site description.
 #baseurl: "/~szhou45" # the subpath of your site, e.g. /blog
-url: "http://www.cbsr.ia.ac.cn" # the base hostname & protocol for your site
+url: "http://shuaizhou.me" # the base hostname & protocol for your site
 
 # Build settings
 markdown: kramdown
 sass:
   style: compressed
+exclude: ['README.md', 'LICENSE']
