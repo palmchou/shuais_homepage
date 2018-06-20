@@ -28,8 +28,17 @@
   <link rel="manifest" href="/assets/favicon/manifest.json">
   <link rel="mask-icon" href="/assets/favicon/safari-pinned-tab.svg" color="#5bbad5">
   <meta name="theme-color" content="#ffffff">
-
   <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/main.css"/>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-119670136-1"></script>
+  <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-119670136-1');
+  </script>
 </head>
 <body class="mdl-demo mdl-color--grey-100 mdl-color-text--grey-700 mdl-base">
 <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
@@ -53,14 +62,13 @@
         <a class="mdl-navigation__link" href="{{ site.baseurl }}/resume/">Resume</a>
         <a class="mdl-navigation__link" href="{{ site.baseurl }}/projects/">Projects</a>
         <a class="mdl-navigation__link" href="{{ site.baseurl }}/publications/">Publications</a>
+        <a class="mdl-navigation__link" href="{{ site.baseurl }}/links/">Links</a>
       </nav>
       <div class="mdl-layout-spacer"></div>
       <div class="contact-info">
         <p class="contact-header">Contact</p>
         <p><strong>Shuai Palm Zhou</strong></p>
         <p><strong>Graduate Student at <a href="https://www.ucsc.edu/" target="_blank">UCSC</a></strong></p>
-        <p>141 CHESTNUT ST APT 218,
-          Santa Cruz, CA 95060</p>
         <p>Tel: (669) 214-4200</p>
         <p>shuaizhou.palm at gmail.com</p>
         <p>shuai.z at ucsc.edu</p>
@@ -74,7 +82,7 @@
       <footer class="mdl-mini-footer">
         <div class="mdl-mini-footer__left-section">
           <ul class="mdl-mini-footer__link-list">
-            <li><span>Copyright © 2017 All rights reserved</span></li>
+            <li><span>Copyright © 2017 - 2018 All rights reserved</span></li>
             <li>Theme Designed by <a href="#">Palm</a> Based on <a target="_blank" href="https://getmdl.io/index.html">Material Design Lite</a></li>
           </ul>
         </div>

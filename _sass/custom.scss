@@ -106,3 +106,12 @@ section.resume-btn-section {
     text-decoration-line: none;
   }
 }
+div.project-media-container {
+  margin-right: 6px;
+  div.project-media {
+    background: none !important;
+    img {
+      width: 100%;
+    }
+  }
+}

@@ -1,0 +1,27 @@
+div.project-media-container {
+  margin-right: 6px;
+  border: 1px dashed lightblue;
+  background: none !important;
+  img {
+    padding: 4% 10%;
+    width: 80%;
+    vertical-align: middle;
+  }
+  span.helper {
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+  }
+}
+.project-group {
+  .project-main {
+    h4.project-title {
+      margin-bottom: 4px;
+    }
+    .project-date {
+      color: gray;
+      float: right;
+      margin-bottom: 2px;
+    }
+  }
+}
